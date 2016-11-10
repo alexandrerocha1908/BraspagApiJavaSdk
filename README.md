@@ -1,4 +1,4 @@
-# SDK Android Braspag
+# SDK Java Braspag
 
 ## Principais recursos
 
