@@ -30,7 +30,7 @@ public class UpdateSaleRequest extends AbstractSaleRequest<String> {
 		Sale sale = null;
 
 		try {
-			URIBuilder builder = new URIBuilder(environment.getApiUrl() + "1/sales/" + paymentId + "/" + type);
+			URIBuilder builder = new URIBuilder(environment.getApiUrl() + "v2/sales/" + paymentId + "/" + type);
 
 			if (amount != null) {
 				builder.addParameter("amount", amount.toString());
