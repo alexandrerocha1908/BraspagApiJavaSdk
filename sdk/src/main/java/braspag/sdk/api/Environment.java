@@ -13,8 +13,8 @@ public enum Environment implements braspag.sdk.Environment {
      * <li>apiUrl = https://apisandbox.braspag.com.br/</li>
      * <li>apiQueryUrl = https://apiquerysandbox.braspag.com.br//</li>
      */
-    PRODUCTION("https://apisandbox.braspag.com.br/",
-               "https://apiquerysandbox.braspag.com.br/"),
+    SANDBOX("https://apisandbox.braspag.com.br/",
+            "https://apiquerysandbox.braspag.com.br/"),
 
     /**
      * Environment.SANDBOX
@@ -22,8 +22,8 @@ public enum Environment implements braspag.sdk.Environment {
      * <li>apiUrl = https://api.braspag.com.br/</li>
      * <li>apiQueryUrl = https://apiquery.braspag.com.br/</li>
      */
-    SANDBOX("https://api.braspag.com.br/",
-            "https://apiquery.braspag.com.br/");
+    PRODUCTION("https://api.braspag.com.br/",
+               "https://apiquery.braspag.com.br/");
 
     private final String apiUrl;
     private final String apiQueryUrl;
